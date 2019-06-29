@@ -3,6 +3,7 @@
 body {
   overflow-x: hidden;  
   color: #505962;
+  background: #505962;
   
 }
 
@@ -41,10 +42,7 @@ background-image: url("../images/cover.jpg");
  }
 
  h3.heading {
-   text-align: center;
-   font-size: 1.9rem;
-   text-transform: uppercase;
-   margin-bottom: 1.9rem;
+  
  }
 
  .card {
@@ -59,10 +57,24 @@ h4, {
   margin: 0;
 }
 
+.video {
+  height: 100%;
+}
+.img-fluid {
+  height: 300px;
+}
 .general-sub {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   color: #fafafa;
+}
+
+.general-sub-drk {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
 }
 
 footer {
