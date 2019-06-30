@@ -16,10 +16,11 @@ body {
 }
 
 .home-inner {
-background-image: url("../images/cover.jpg");
+background-image: url("https://metvcdn.metv.com/17nfO-1551209228-1247-quizzes-monkees_theme_quiz.jpg");
 }
 
 .caption {
+  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -27,8 +28,8 @@ background-image: url("../images/cover.jpg");
   z-index: 1;
  }
  .caption h3 {
-   color: #fff;
-   font-size: 2.4rem;
+   color: #505962;
+   font-size: 5rem;
    text-transform: uppercase;
    padding-bottom: 2rem;
  }
@@ -40,10 +41,7 @@ background-image: url("../images/cover.jpg");
    padding: .5rem 1.1rem;
    font-size: .9rem;
  }
-
- h3.heading {
-  
- }
+ 
 
  .card {
    margin: 2rem;
