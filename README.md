@@ -1,72 +1,68 @@
 # The Monkees
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This is The Monkees Website, The website is mobile first responsive built with bootstrap 4. 
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+My goal in the design was to provide a place where fans and potential fans could book an event and have a sample taste of music and video's with links to THe Monkees social media aswell as showcasing images of the band. 
 
 Ux User Stories
 - As a fan I want to watch and hear tracks from The Monkees so I can see what they have available.
 - As a fan I would like to be able to book The Monkeys for a party that I am hosting.
 - As a potential fan I want to be able to visit The Monkeys social media accounts. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+[Wireframe Link](https://github.com/GILLIANMCD/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/wireframe.pdf)
+
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+-This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect.The navbar is responsive to create a less crowded view on mobile eliminating any crowded space on mobile.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Contact Form - allows users to send a message or request for available dates. 
+- Spotify - allows users to listen to the bands music and find further music on spotify.
+- Video - allows users to watch video of The Monkees which does not automatically start on page load giving the option for the user to play video when they want.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Calendar online booking which would advertise available dates for fans or potential fans to confirm.  
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+-HTML
+-CSS
+-Bootstrap
 - [JQuery](https://jquery.com)
  - The project uses **JQuery** to simplify DOM manipulation.
 
 ## Testing
-
+The site has been tested using Chrome Developer tools checking responsiveness on various mobile, tablet and desktop. 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+. Responsiveness
+1. Open .html file in chrome browser.
+2. Right click and choose inspect.
+3. hover over area to inspect styles and cick inspect again, alternatively click on page area in Elements to also show styles of the page area.
+4. Configure styles css to desired format. 
+5. Update source css file and save for changed to be implemented.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
+- Contact form:
  1. Go to the "Contact Us" page
  2. Try to submit the empty form and verify that an error message about the required fields appears
  3. Try to submit the form with an invalid email address and verify that a relevant error message appears
  4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Review of site testing for sections
+The overall feel and look of the site is themed well with good structure and easy to follow navigation.
+-Navbar - navbar transforms to burget menu on mobile 
+-Home - Image looks well on desktop - does not shrink down well on tablet or mobile *Tablet and Mobile to be addressed.
+-About/ Gallery- about and Gallery on mobile and tablet and desktop with columns adjusting accordingly.
+-Video - Appears to big for user * Video size to be adjusted and listen to spotify to be placed in 2 cols in order to keep media together and provide a better user experience. 
+-footer - Music plays, contact button works and social medial links work. However the colums appear to overlap 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/GILLIANMCD/User-Centric-Frontend-Development-Milestone-Project.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 
@@ -79,9 +75,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 --[Wikipedia - Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site are directly linked to source file throughout the site. 
+- Images are also used by assets provided by Code Institute.
 
 ### Acknowledgements
 
 - I received inspiration for this project from
 --[YouTube Drew Ryan](https://www.youtube.com/watch?v=Ht1F9KuhJO4&t=185s)
+--[W3Schools](https://www.w3schools.com)
