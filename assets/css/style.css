@@ -78,8 +78,7 @@ background-image: url("https://metvcdn.metv.com/17nfO-1551209228-1247-quizzes-mo
   color: #fafafa;
   min-height: 120px;
   margin: 0;
-  text-align: center;
-}
+ }
 
 .center-form {
   max-width: 70%;
@@ -120,7 +119,6 @@ background-image: url("https://metvcdn.metv.com/17nfO-1551209228-1247-quizzes-mo
 .social-links li a i:hover {
     background: #dd5022;
 }
-
 
 
  /*@media*/
