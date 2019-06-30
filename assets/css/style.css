@@ -3,7 +3,7 @@
 body {
   overflow-x: hidden;  
   color: #505962;
-  background: #505962;
+  background-color: #bb3928 !important;
   
 }
 
@@ -26,6 +26,7 @@ background-image: url("https://metvcdn.metv.com/17nfO-1551209228-1247-quizzes-mo
   position: absolute;
   top: 40%;
   z-index: 1;
+  padding-bottom: 15px;
  }
  .caption h3 {
    color: #505962;
@@ -42,22 +43,19 @@ background-image: url("https://metvcdn.metv.com/17nfO-1551209228-1247-quizzes-mo
    font-size: .9rem;
  }
  
-
  .card {
    margin: 2rem;
  }
-/*----Special paddings/margins/text*/ 
 
-h1,
-h2,
-h3,
-h4, {
-  margin: 0;
+ .card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+.overflow-auto {
+  max-height: 200px;
 }
 
-.video {
-  height: 100%;
-}
 .img-fluid {
   height: 300px;
 }
@@ -75,12 +73,28 @@ h4, {
   margin-bottom: 1.9rem;
 }
 
-footer {
+.footer {
   background-color: #bb3928;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
+  text-align: center;
 }
+
+.center-form {
+  max-width: 70%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+@media(min-width:992px)
+.center-form {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+
 
 .social-links {
   padding-top: 15px;
@@ -104,7 +118,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #dd5022;
 }
 
 
